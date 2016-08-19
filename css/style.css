@@ -1,0 +1,87 @@
+#home {
+    background-image: url(../image/ERICA.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+#navbar {
+    margin-bottom: 0;
+}
+#navbar .navbar-header h3 {
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+#home .btn {
+    background: transparent;
+    border-radius: 0;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    letter-spacing: 2px;
+    padding: 16px 42px;
+    margin-top: 40px;
+    transition: all 0.4s ease-in-out;
+}
+
+#home h1, #home h2 {
+    color: white;
+}
+
+#member .container {
+    text-align: center;
+}
+
+.photo {
+    width: 150px;
+    max-height: 180px;
+}
+#login-btn {
+    border-radius: 0;
+    border : 2px solid black;
+}
+#belong-to {
+    text-align: center;
+}
+
+
+#study .container {
+    text-align: center;
+}
+#HYU {
+    height: 120px;
+    width: auto;
+}
+
+#ZERONE {
+    height: 120px;
+    width: auto;
+}
+#footer {
+    height: 140px;
+    background-color: darkgrey;
+}
+
+#footer p {
+    position: relative;
+    top: 40px;
+}
+#button {
+    position: relative;   
+}
+#add_topic {
+    text-align: center;
+    
+}
+#add_topic div, #add_topic a{
+    font-size: 30px;
+}
